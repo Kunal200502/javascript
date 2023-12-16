@@ -80,7 +80,7 @@ const handleReset = () => {
   startButton.classList.remove('hidden');
   resetButton.classList.add('hidden');
   doneButton.classList.add('hidden');
-  done_list.splice(0, done_list.lengths)
+  done_list.splice(0, done_list.length)
 };
 
 
@@ -98,7 +98,7 @@ function handleDone(){
   doneButton.classList.add('hidden')
   resetButton.classList.add('hidden')
   startButton.classList.remove('hidden')
-  done_list.splice(0, done_list.lengths)
+  done_list.splice(0, done_list.length)
 }
 
 
