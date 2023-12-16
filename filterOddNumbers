@@ -1,0 +1,13 @@
+const array = [5, 8, 9, 22, 90, 23, 37]
+
+function filterOddNumber(){
+    const odd_list = []
+    for (let x of array){
+        if (x%2 === 1){
+            odd_list.push(x)
+        }
+    }
+    return odd_list
+}
+
+console.log(filterOddNumber())
